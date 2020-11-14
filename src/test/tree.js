@@ -9,7 +9,11 @@ tree.insert(9);
 
 console.log(tree);
 
-tree.traverse((val) => console.log(val));
+// tree.traverse((val) => console.log(val));
 
 console.log(tree.min);
 console.log(tree.max);
+
+tree.remove(8);
+
+console.log(tree);
